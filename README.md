@@ -1,7 +1,11 @@
+<p align="center"><img src="assets/rig-banner.svg" width="1280" alt="XNODE — RED └•TEAM•┐ lab™"></p>
+
+[Штаб лаборатории](https://github.com/Xnode-sh/RED-TEAM-LAB) · [Профиль XNODE](https://github.com/Xnode-sh)
+
 # Xnode
 
 OSINT / red-team утилиты для командной строки. Пишутся и поддерживаются в рамках
-Telegram-канала [RED·TEAM·LAB (@xnode_sh)](https://t.me/xnode_sh) — про Termux,
+Telegram-канала [RED └•TEAM•┐ lab™ (@xnode_sh)](https://t.me/xnode_sh) — про Termux,
 OSINT и локальные LLM-агенты на Android.
 
 Скрипты рассчитаны на запуск из Termux (proot-distro Ubuntu) или любого обычного
@@ -89,8 +93,8 @@ python3 api_parser.py https://api.example.com/items \
 ## Установка
 
 ```bash
-git clone https://github.com/Xnode-sh/Xnode.git
-cd Xnode
+git clone https://github.com/Xnode-sh/xnode-osint.git
+cd xnode-osint
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 
@@ -120,8 +124,16 @@ pipx install holehe
 закинуть на [монобанку](https://send.monobank.ua/jar/7vicbyosdS).
 
 Нужен кастомный OSINT/red-team скрипт под задачу или консультация по
-Termux-агентам — пишите в [Telegram-канал RED·TEAM·LAB (@xnode_sh)](https://t.me/xnode_sh).
+Termux-агентам — пишите в [Telegram-канал RED └•TEAM•┐ lab™ (@xnode_sh)](https://t.me/xnode_sh).
 
 ## Лицензия
 
 MIT, см. [LICENSE](LICENSE).
+
+<img src="assets/rig-divider.svg" width="1280" alt="">
+
+## Инженерный процесс лаборатории
+
+`PLAN → ISSUE → BRANCH → WORK → TEST → PR → REVIEW → MERGE`
+
+Команда: **RIG / KAI / NOVA**. NODE — фирменный маскот. [Правила работы](https://github.com/Xnode-sh/RED-TEAM-LAB/blob/main/WORKFLOW.md).
